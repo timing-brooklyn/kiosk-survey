@@ -1,7 +1,7 @@
 {
   "rules": {
     // Let everyone read and write to the "chat" node
-    ".read": true,
+    ".read": false,
     ".write": true,
 
     "$message": {

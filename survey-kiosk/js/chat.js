@@ -20,6 +20,7 @@ $(document).ready(function() {
   var $newMessage = $('#new-message');
   var $username = $('#username');
   var $messages = $('#messages');
+  var $birth = $('#birth');
 
 
   /*
@@ -67,6 +68,10 @@ $(document).ready(function() {
     if (e.keyCode == 13 && message.length) {
       messagesRef.push({name:username, text:message});
       $newMessage.val('');
+      alert('thank you.');
+      $username.val('');
+      $newMessage.val('');
+      $birth.val('');
     }
   });
 });
