@@ -63,10 +63,11 @@ $(document).ready(function() {
     // GET FIELD VALUES
     var username = $username.val();
     var message = $newMessage.val().trim();
+    var birth = $birth.val().trim();
 
     // SAVE MESSAGE WHEN 'ENTER' IS PRESSED
     if (e.keyCode == 13 && message.length) {
-      messagesRef.push({name:username, text:message});
+      messagesRef.push({name:username, text:message, birth:birth});
       $newMessage.val('');
       alert('thank you.');
       $username.val('');

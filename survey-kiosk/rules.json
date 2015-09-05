@@ -6,7 +6,7 @@
 
     "$message": {
       // Existing messages cannot be overwritten and each message must contain a "name" and "text"
-      ".validate": "!data.exists() && newData.hasChildren(['name', 'text'])",
+      ".validate": "!data.exists() && newData.hasChildren(['name', 'text', 'birth'])",
 
       // "name" must be a string
       "name": {
