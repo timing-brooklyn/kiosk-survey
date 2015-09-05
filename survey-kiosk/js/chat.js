@@ -67,7 +67,9 @@ $(document).ready(function() {
 
     // SAVE MESSAGE WHEN 'ENTER' IS PRESSED
     if (e.keyCode == 13 && message.length) {
-      messagesRef.push({name:username, text:message, birth:birth});
+      var item = {name:username, text:message, birth:birth};
+      console.log(JSON.stringify(item));
+      messagesRef.push(item);
       $newMessage.val('');
       alert('thank you.');
       $username.val('');

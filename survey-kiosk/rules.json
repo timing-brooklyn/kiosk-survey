@@ -18,6 +18,11 @@
         ".validate": "newData.isString()"
       },
 
+      // "name" must be a string
+      "birth": {
+        ".validate": "newData.isString()"
+      },
+
       // No other children are allowed
       "$other": {
         ".validate": false
