@@ -5,8 +5,8 @@ $(document).ready(function() {
   *
   */
 
-  //var messagesRef = new Firebase('https://survey-kiosk.firebaseio.com/');
-  var messagesRef = new Firebase('https://blinding-inferno-6816.firebaseio.com/');
+  var messagesRef = new Firebase('https://survey-kiosk.firebaseio.com/');
+  //var messagesRef = new Firebase('https://blinding-inferno-6816.firebaseio.com/');
 
 
   /*
