@@ -1,0 +1,11 @@
+{
+  "_firebase": "survey-kiosk", 
+  "firebase": "blinding-inferno-6816",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "rules": "rules.json"
+}
